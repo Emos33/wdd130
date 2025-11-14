@@ -64,6 +64,7 @@ main img {
     padding: 10px;
     box-shadow: 2px 2px 5px grey;
     float: right;
+    margin: 0 auto;
 }
 
 p {padding: 0; clear: left}

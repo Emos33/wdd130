@@ -17,6 +17,16 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-rows: auto 100px auto;
+    margin-right: 100vh;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
 body {

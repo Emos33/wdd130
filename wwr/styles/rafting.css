@@ -50,7 +50,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: var(--accent1-color);
@@ -97,6 +97,8 @@ h1 {
     color: #fff;
 }
 
+
+
 .hero article img {
     float: right;
     width: 125px;
@@ -115,13 +117,26 @@ h1 {
   opacity: 0.9;
 }
 
+section {
+    margin-top: 20px;
+}
+
 .figures {
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
+
+.figures > h2 {
+    flex-basis: 100%;
+}
+
+
+
+
 
 footer {
     display: flex;

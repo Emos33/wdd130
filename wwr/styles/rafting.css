@@ -65,9 +65,9 @@ nav, p, section, article {
 
 nav a {
   text-decoration: none;
-  color: #222;
+  color: #fff;
   padding: 10px 15px;
-  background-color: var(--secondary-color)
+  background-color: var(--accent1-color)
   
 }
 

@@ -15,11 +15,8 @@
 }
 
 .logo img {
-    display: flex;
     width: 80px;
     height: 80px;
-    object-fit: cover;
-    float: inline-start;
 
 }    
 
@@ -32,7 +29,7 @@ header {
 
 }
 
- ul {
+ul {
     display: flex;
     list-style: none;
     align-items: center;
@@ -57,10 +54,15 @@ h1, h2{
     text-align: center;
 }
 
-nav, p, section, article {
+nav, section, article {
     margin: 16px;
-    padding: 8px;
+    padding: 10px;
 
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 nav a {
@@ -126,7 +128,7 @@ section {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
@@ -135,13 +137,55 @@ section {
     flex-basis: 100%;
 }
 
+form {
+    width: 400px;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 /0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    gap: 10px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.map, .form-area {
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+
+
+
+
 
 
 
 
 footer {
     display: flex;
-    justify-items: right;
+    justify-content: space-around;
+    gap: 300px;
+}
+
+.footerp, .socialmedia{
+    flex: 1;
+    padding: auto;
+
 }
     
 

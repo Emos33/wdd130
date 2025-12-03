@@ -17,6 +17,8 @@
 .logo img {
     width: 80px;
     height: 80px;
+    position: relative;
+    z-index: 1;
 
 }    
 
@@ -90,13 +92,13 @@ nav a {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 10px;
     width: 840px;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 

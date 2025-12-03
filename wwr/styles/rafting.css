@@ -133,7 +133,7 @@ section {
 
 }
 
-.figures > h2 {
+.figures h2 {
     flex-basis: 100%;
 }
 

@@ -206,7 +206,7 @@ footer {
 
 .footer p, .socialmedia {
     flex: 1;
-    padding: auto;
+    padding: 1px;
 
 }
     

@@ -173,20 +173,28 @@ form {
 
 
 
-/* input[type="text"], input[type="email"], textarea, button {
+ input[type="text"], input[type="email"], textarea, button {
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box; 
-}*/
+} 
 
-/* input[type="radio"], input[type="checkbox"] {
+ input[type="radio"], input[type="checkbox"] {
     margin-right: 5px; 
 
-}*/
+}
 
+div {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #52e09e;
+    cursor: pointer;
+}
 
 
 

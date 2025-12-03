@@ -47,7 +47,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2{
+h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: var(--accent1-color);
@@ -69,7 +69,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   padding: 10px 15px;
-  background-color: var(--accent1-color)
+  background-color: var(--accent1-color);
   
 }
 

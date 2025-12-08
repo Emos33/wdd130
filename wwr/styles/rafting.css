@@ -101,6 +101,18 @@ h1 {
     color: #000;
 }
 
+.book-now {
+    position: absolute;
+    top: 100px;
+    width: 350px;
+    right: 250px;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: #fff;
+    color: #000;
+}
+
 
 
 .hero article img {
@@ -137,6 +149,8 @@ section {
 
 .figures h2 {
     flex-basis: 100%;
+    
+    
 }
 
 form {
@@ -160,6 +174,12 @@ form {
     flex: 1;
     padding: 10px;
     
+}
+
+.form-area2 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
 }
 
 .contact {
@@ -196,6 +216,8 @@ div {
 button {
     background-color: #52e09e;
     cursor: pointer;
+    font-weight: bold;
+
 }
 
 

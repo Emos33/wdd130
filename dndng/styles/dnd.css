@@ -234,7 +234,7 @@ button {
 footer {
     display: flex;
     justify-content: space-around;
-    /* gap: 300px; */
+    gap: 300px;
 }
 
 .footer p, .socialmedia {
